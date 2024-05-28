@@ -1,18 +1,23 @@
-import Container from '@mui/material/Container';
+import Container from "@mui/material/Container";
+import Home from "./pages/Home";
+import RouterConfig from "./config/RouterConfig";
+import "./App.css"
 
 
 function App() {
-
-  return (
-    <Container style={{height:"fit-content"}}>
-        <div>
-            <h1>Movie Search Page</h1>
-            <div>
-                Film sayfası
+    
+    return (
+        <Container style={{ height: "fit-content" }}>
+            <div className="all-users">
+                
+                <div>
+                    <RouterConfig />
+                    
+                    
+                </div>
             </div>
-        </div>
-  </Container>
-  )
+        </Container>
+    );
 }
 
-export default App
+export default App;

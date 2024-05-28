@@ -1,0 +1,17 @@
+
+
+.details-button {
+    padding: 10px;
+    border: none;
+    background-color: rgb(149, 25, 0);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.user-image {
+    height: 200px;
+    width: 300px;
+    padding: 0px !important;
+}
